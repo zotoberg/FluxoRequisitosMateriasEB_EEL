@@ -187,62 +187,55 @@ const data = {
         "requisito": [
             "Física III"
         ]
-    }
-    ,
+    },
     "Fenômenos de Transporte I": {
         "periodo": 5,
         "requisito": [
             "Mecânica",
             "Cálculo III"
         ]
-    }
-    ,
+    },
     "Termodinâmica Química Aplicada II": {
         "periodo": 5,
         "requisito": [
             "Termodinâmica Química Aplicada I"
         ]
-    }
-    ,
-    "Engenharia da Qualidade": {
+    },
+    "Análise Instrumental": {
         "periodo": 5,
         "requisito": [
-            "Estatística"
+            "Química Analítica para Engenharia"
         ]
-    }
-    ,
-    "Engenharia da Qualidade": {
+    },
+    "Laboratório de Eletricidade": {
         "periodo": 5,
         "requisito": [
-            "Estatística"
+            "Física Experimental III"
         ]
-    }
-    ,
-    "Engenharia da Qualidade": {
+    },
+    "Bioquímica Experimental II": {
         "periodo": 5,
         "requisito": [
-            "Estatística"
+            "Bioquímica I"
         ]
-    }
-    ,
-    "Engenharia da Qualidade": {
+    },
+    "Bioquímica II": {
         "periodo": 5,
         "requisito": [
-            "Estatística"
+            "Bioquímica I",
+            "Bioquímica Experimental I"
         ]
-    }
-    ,
-    "Engenharia da Qualidade": {
+    },
+    "Tecnologia de Conversão de Biomassa Vegetal": {
         "periodo": 5,
         "requisito": [
-            "Estatística"
+            "Estrutura e Química de Materiais Lignocelulósicos"
         ]
-    }
-    ,
-    "Engenharia da Qualidade": {
+    },
+    "Tecnologia de Biopolímeros": {
         "periodo": 5,
         "requisito": [
-            "Estatística"
+            "Química Orgânica Fundamental"
         ]
     }
 }

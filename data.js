@@ -237,5 +237,98 @@ const data = {
         "requisito": [
             "Química Orgânica Fundamental"
         ]
+    },
+    "Fundamentos de Engenharia Econômica": {
+        "periodo": 6,
+        "requisito": [
+            "Estatística"
+        ]
+    },
+    "Fenômenos de Transporte II": {
+        "periodo": 6,
+        "requisito": [
+            "Fenômenos de Transporte I"
+        ]
+    },
+    "Laboratório de Engenharia Química I": {
+        "periodo": 6,
+        "requisito": [
+            "Fenômenos de Transporte I"
+        ]
+    },
+    "Operações Unitárias I": {
+        "periodo": 6,
+        "requisito": [
+            "Fenômenos de Transporte I"
+        ]
+    },
+    "Cinética Química Aplicada": {
+        "periodo": 6,
+        "requisito": [
+            "Termodinâmica Química Aplicada II"
+        ]
+    },
+    "Tecnologia de Processos Fermentativos": {
+        "periodo": 6,
+        "requisito": [
+            "Microbiologia"
+        ]
+    },
+    "Engenharia de Segurança do  Trabalho e Biossegurança": {
+        "periodo": 6,
+        "requisito": [
+            "Engenharia Genética"
+        ]
+    },
+    "Operações Unitárias II": {
+        "periodo": 7,
+        "requisito": [
+            "Fenômenos de Transporte II"
+        ]
+    },
+    "Fenômenos de Transporte III": {
+        "periodo": 7,
+        "requisito": [
+            "Fenômenos de Transporte II"
+        ]
+    },
+    "Laboratório de Engenharia Química II": {
+        "periodo": 7,
+        "requisito": [
+            "Fenômenos de Transporte II"
+        ]
+    },
+    "Fundamentos de Administração da Produção": {
+        "periodo": 7,
+        "requisito": [
+            "Gestão de Negócios"
+        ]
+    },
+    "Engenharia Ambiental": {
+        "periodo": 7,
+        "requisito": [
+            "Bioquímica I"
+        ]
+    },
+    "Engenharia Bioquímica I": {
+        "periodo": 7,
+        "requisito": [
+            "Tecnologia de Processos Fermentativos"
+        ]
+    },
+    "Genética e Biotecnologia Vegetal": {
+        "periodo": 7,
+        "requisito": [
+            "Engenharia Genética",
+            "Bioquímica II"
+        ]
+    },
+    "Enzimologia": {
+        "periodo": 7,
+        "requisito": [
+            "Engenharia Genética",
+            "Bioquímica I",
+            "Microbiologia"
+        ]
     }
 }

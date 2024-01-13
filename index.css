@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #191e19;
+    font-family: Inter, Arial;
+    /* background-image: url(https://i.imgur.com/8eRgoes.jpg); */
+}
+
+div#main
+{
+    font-size: 1em;
+    position: absolute;
+}
+.rowContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#boxRows
+{
+    position: absolute;
+}
+
+#svgContainer
+{
+    position: absolute;
+}
+hr
+{
+    /* border: #8888ff 1px solid; */
+    border: #8888ff;
+}
+.modbox
+{
+    position: relative;
+    border: 1px solid rgba(255,255,255,0);
+    text-align: center;
+    width: 12em;
+    height: 7em;
+    margin: 5px;
+    padding: 3px;
+    background-color: black;
+}
+line, .modbox
+{
+    transition: all 200ms ease;
+}
+.modTitle
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    height: 3em;
+    /* width: 6em; */
+}
+.modTitle img
+{
+    max-width: 1.5em;
+    max-height: 1.5em;
+}
+.rewardSpan
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.modText, .bonusText
+{
+    color: #8888ff;
+    font-size: 0.8em;
+    line-height: 1px;
+}

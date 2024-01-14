@@ -17,7 +17,16 @@ function setup()
 
 	console.log(periodos)
 	for (const periodo of periodos) {
-		document.getElementById("main").appendChild(document.createElement("hr"))
+		const main = document.getElementById("main");
+		main.appendChild(document.createElement("hr"));
+
+
+		const h2 = document.createElement("h2");
+		h2.innerText = `${periodo + 1}º Período `;
+		
+		main.appendChild(h2);
+
+
 		let rowContainer = document.createElement("div");
 		rowContainer.setAttribute("id", "row" + periodo + "container");
 		rowContainer.setAttribute("class", "rowContainer");

@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 
-body
-{
+html, body {
+    width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #191e19;
+}
+
+body
+{
+    background-color: #161616;
     font-family: Inter, Arial;
-    /* background-image: url(https://i.imgur.com/8eRgoes.jpg); */
 }
 
 div#main
@@ -34,6 +37,12 @@ hr
     /* border: #8888ff 1px solid; */
     border: #8888ff;
 }
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 12px;
+    color: #EA7413;
+}
 .modbox
 {
     position: relative;
@@ -48,6 +57,7 @@ hr
 line, .modbox
 {
     transition: all 200ms ease;
+    color: #EA7413;
 }
 .modTitle
 {

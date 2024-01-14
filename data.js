@@ -330,5 +330,97 @@ const data = {
             "Bioquímica I",
             "Microbiologia"
         ]
+    },
+    "Modelagem e Simulação de Processos Biotecnológicos": {
+        "periodo": 8,
+        "requisito": [
+            "Introdução aos Métodos Numéricos e Computacionais",
+            "Operações Unitárias II"
+        ]
+    },
+    "Operações Unitárias III": {
+        "periodo": 8,
+        "requisito": [
+            "Fenômenos de Transporte III"
+        ]
+    },
+    "Processos Bioquímicos Industriais": {
+        "periodo": 8,
+        "requisito": [
+            "Tecnologia de Processos Fermentativos",
+            "Operações Unitárias II"
+        ]
+    },
+    "Instrumentação e Controle de Bioprocessos": {
+        "periodo": 8,
+        "requisito": [
+            "Tecnologia de Processos Fermentativos",
+            "Eletricidade Aplicada",
+            "Fenômenos de Transporte II"
+        ]
+    },
+    "Laboratório de Engenharia Química III": {
+        "periodo": 8,
+        "requisito": [
+            "Operações Unitárias I",
+            "Operações Unitárias II"
+        ]
+    },
+    "Reatores Bioquímicos": {
+        "periodo": 8,
+        "requisito": [
+            "Cinética Química Aplicada",
+            "Engenharia Bioquímica I"
+        ]
+    },
+    "Engenharia Bioquímica II": {
+        "periodo": 8,
+        "requisito": [
+            "Engenharia Bioquímica I"
+        ]
+    },
+    "Laboratório de Engenharia Bioquímica": {
+        "periodo": 8,
+        "requisito": [
+            "Engenharia Bioquímica I",
+            "Enzimologia"
+        ]
+    },
+    "Estatística em Bioprocessos": {
+        "periodo": 9,
+        "requisito": [
+            "Processos Bioquímicos Industriais",
+            "Estatística"
+        ]
+    },
+    "Trabalho de Conclusão de Curso I": {
+        "periodo": 9,
+        "requisito": [
+            "Engenharia Bioquímica I"
+        ]
+    },
+    "Tecnologia de Bebidas": {
+        "periodo": 9,
+        "requisito": [
+            "Tecnologia de Processos Fermentativos"
+        ]
+    },
+    "Tecnologia de Bebidas Experimental": {
+        "periodo": 9,
+        "requisito": [
+            "Tecnologia de Processos Fermentativos"
+        ]
+    },
+    "Tecnologia do Cultivo de Células Animais": {
+        "periodo": 10,
+        "requisito": [
+            "Engenharia Bioquímica I"
+        ]
+    },
+    "Trabalho de Conclusão de Curso II": {
+        "periodo": 10,
+        "requisito": [
+            "Trabalho de Conclusão de Curso I"
+        ]
     }
 }

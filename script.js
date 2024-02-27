@@ -23,7 +23,7 @@ function setup()
 
 		const h2 = document.createElement("h2");
 		h2.innerText = `${periodo + 1}º Período `;
-		
+
 		main.appendChild(h2);
 
 
@@ -149,7 +149,7 @@ function highlight(box)
 	let id = box.id;
 
 	//highlight selected box
-	box.style.border = "1px solid rgba(255,255,255,1)";
+	box.style.border = "1px solid rgba(234,116,19,1)";
 
 	//mute all arrows
 	let arrows = document.getElementsByTagName("line");
@@ -178,7 +178,6 @@ function highlight(box)
 	//highlight boxes that we use, and that our parents use
 	highlightRecurseDown(id, 1);
 	highlightRecurse(id, 1);
-
 }
 function highlightRecurseDown(id, depth)
 {
@@ -233,7 +232,7 @@ function boxLeave()
 		{
 			boxes[a].style.opacity = 1;
 			boxes[a].style.border = "1px solid rgba(255,255,255,0)";
-		}
+		}	
 		for(let a = 0; a < arrows.length; a++)
 		{
 			arrows[a].style.opacity = 1;
